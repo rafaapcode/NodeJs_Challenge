@@ -122,3 +122,5 @@ app.delete("/todos/:id", (req, res) => {
 
     return res.status(204).send();
 });
+
+module.exports = app;
